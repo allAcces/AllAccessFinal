@@ -1,0 +1,145 @@
+
+
+.body ul{
+     margin: 0;
+    padding: 0;
+    background: #F7F5EE;
+}
+
+.top{
+     margin-top: 40px;
+    height: 120px;
+    width: 900px;
+    background-color: #157ED2;
+    font-family: cursive;
+    
+}
+.top img{
+  
+    width: 130px;
+    height: 40px;
+}
+.top ul li{
+    list-style: none;
+   
+}
+ 
+.top ul li a{
+    font-size: 20px;
+    color: #F7F5EE;
+   
+}
+.top1{
+   
+    height: 90px;
+    background-color: #0F6CB2;
+    color: #ffffff;
+    
+}
+.top1 img{
+    height: 100%;
+    width: 29.3%;
+    margin-left:  0%;
+}
+.top1 h4, h5{
+    margin-left: 0px;
+    color: #ffffff;
+}
+.top2{
+    height: 330px;
+    background-color: #0F6CB2;
+ 
+}
+
+.top3{
+    height: 330px;
+  background-color: #333; 
+    color: #87CEFA;
+   }
+
+.top2 ul li a{
+    background-color: #027CD5;
+    font-style: normal;
+    display: block;
+    color: #fff;
+    margin: 0px;
+   list-style: none;
+}
+.top2 ul li a:hover{
+    background-color:cornflowerblue;
+}  
+
+#slider{
+    border: 1px solid #000;
+    
+}
+#slider img{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.top4{
+    height: 40px;
+  background-color: #fff;
+    }
+   
+.top4 ul li{
+    list-style: none;
+    display: block;
+}
+.top4 ul li a{
+    font-family:  cursive ;
+    display: block;
+    font-family: 'Lato', sans-serif;
+    padding: 10px 20px;
+    color: #333;
+}
+.top4 ul li a:hover{
+    background-color:cornflowerblue;
+    
+}
+.top5{
+    height: 30px;
+    background-color: #87CEFA;
+}
+.top2 ul li a{
+    box-shadow: 1px 1px 5px #CCC;
+    margin: 10px;
+   
+    padding: 5px;
+font-family:cursive;
+}
+
+.mem tbody td{
+    width: 50%;
+    padding-left: 5%;
+}
+.mem input[type=radio]{
+    margin: 0;
+    margin-left: 2%;
+    padding: 0;
+    width: 5px;
+    height: 5px;
+}
+.Feedback1{
+   
+    margin: 5px;
+    width: 320px;
+    padding: 5px;
+font-family: Verdana;
+
+}
+.frmprofile{
+     
+    margin: 5px;
+    width: 320px;
+    padding: 5px;
+font-family: Verdana;
+}
+.frmpost{
+     margin: 5px;
+    width: 320px;
+    padding: 5px;
+font-family: Verdana;
+
+}
