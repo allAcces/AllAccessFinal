@@ -1,0 +1,151 @@
+body, html {
+	height: 100%;
+}
+
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+h2 {
+	font-family: sans-serif;
+	text-decoration: none;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 36px;
+	color: chocolate;
+}
+
+.label
+{
+	color:black;
+}
+
+.bg-img {
+	background-image:url("../images/AllAccessBanner.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-family: sans-serif;
+	height: 100%;
+}
+
+.menu-bar {
+	background-color: #008000;
+	text-align: center;
+}
+
+.menu-bar ul {
+	display: inline-flex;
+	list-style: none;
+	color: #0000FF;
+}
+
+.menu-bar ul li {
+	width: 120px;
+	margin: 15px;
+	padding: 15px;
+}
+
+.menu-bar ul li a {
+	text-decoration: none;
+	color: white;
+}
+
+.active, .menu-bar ul li:hover {
+	background-color: #7fff00;
+	border-radius: 3px;
+}
+
+.menu-bar .fa {
+	margin-right: 9px;
+}
+
+.sub-menu-about, .sub-menu-service {
+	display: none;
+}
+
+.sub-menu-about .fa, .sub-menu-service .fa {
+	margin-right: 9px;
+}
+
+.menu-bar ul li:hover .sub-menu-about, .menu-bar ul li:hover .sub-menu-service
+	{
+	display: block;
+	position: absolute;
+	background-color: #008000;
+	margin-top: 9px;
+	margin-left: 9px;
+}
+
+.menu-bar ul li:hover .sub-menu-about ul, .menu-bar ul li:hover .sub-menu-service ul
+	{
+	display: block;
+	margin-top: 9px;
+}
+
+.menu-bar ul li:hover .sub-menu-about ul li, .menu-bar ul li:hover .sub-menu-service ul li
+	{
+	width: 150px;
+	padding: 9px;
+	border-bottom: 1px dotted #fff;
+	background: transparent;
+	border-radius: 0;
+	text-align: left;
+}
+
+.menu-bar ul li:hover .sub-menu-about ul li:last-child, .menu-bar ul li:hover .sub-menu-service ul li:last-child
+	{
+	border-bottom: none;
+}
+
+.menu-bar ul li:hover .sub-menu-about ul li a:hover, .menu-bar ul li:hover .sub-menu-service ul li a:hover
+	{
+	background-color: #7fff00;
+	border-radius: 1px;
+}
+
+.form-container {
+	position: absolute;
+	right: 0;
+	margin: 20px;
+	max-width: 350px;
+	padding: 16px;
+	background-color: #faebd7;
+}
+
+label
+{
+	color:black;
+}
+
+input[type=text], input[type=password], input[type=radio], input[type=email]
+	{
+	width: 100%;
+	padding: 15px;
+	margin: 5px 0 22px 0;
+	border: none;
+	background: rgb(128, 128, 128);
+}
+
+input[type=text]:focus, input[type=password]:focus, input[type=radio]:focus,
+	input[type=email]:focus {
+	background-color: rgb(255, 255, 255);
+	outline: none;
+}
+
+.btn {
+	background-color: #04AA6D;
+	color: white;
+	padding: 16px 20px;
+	border: none;
+	cursor: pointer;
+	width: 100%;
+	opacity: 0.9;
+}
+
+.btn:hover {
+	opacity: 1;
+}
